@@ -13,8 +13,8 @@ This is only a simple demo for porting to android.
 2. libspark  
 
 	> http://www.libspark.org/  
-	> http://lab.libspark.org/trac/browser/as2/tomoe  
-	> http://www.libspark.org/svn/as2/Tomoe  
+	> http://lab.libspark.org/trac/browser/as2/tomoe (**dead link**)    
+	> http://www.libspark.org/svn/as2/Tomoe/  
 
 3. tegaki (for training data) (see src\spark\tomoe\HiraganaExtraDictionary.java)
 
