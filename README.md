@@ -8,7 +8,9 @@ This is only a simple demo for porting to android.
 
 1. 文字認識エンジン「巴」  
 
-	> http://tomoe.sourceforge.jp/
+	> http://tomoe.sourceforge.jp/ (**dead link**)  
+	> https://sourceforge.net/projects/tomoe/  
+	> https://osdn.jp/projects/tomoe/  
 
 2. libspark  
 
