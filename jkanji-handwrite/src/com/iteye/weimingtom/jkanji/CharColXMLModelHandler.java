@@ -11,9 +11,7 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
 import org.xml.sax.InputSource;
-import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
@@ -57,10 +55,12 @@ public class CharColXMLModelHandler extends DefaultHandler {
          * @see https://github.com/tegaki/tegaki/tree/master/tegaki-models/data/train/japanese
          */
         xr.parse(new InputSource(new FileInputStream(
-            "e:/重要保存2/tomoe/tegaki/hiragana.charcol"
+            //"e:/重要保存2/tomoe/tegaki/hiragana.charcol"
+        	"hiragana.charcol"
         )));
         xr.parse(new InputSource(new FileInputStream(
-            "e:/重要保存2/tomoe/tegaki/katakana.charcol"
+            //"e:/重要保存2/tomoe/tegaki/katakana.charcol"
+        	"katakana.charcol"
         )));
 	}
 	

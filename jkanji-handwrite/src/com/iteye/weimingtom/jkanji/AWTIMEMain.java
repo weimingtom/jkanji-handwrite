@@ -220,8 +220,10 @@ public class AWTIMEMain implements MouseMotionListener, MouseListener, KeyListen
 		long progressTime = System.currentTimeMillis() - startTime;
 		//
 		if (SHOW_TOMOE) {
-			for(int i = 0; i < res.size(); ++i) {
-				System.out.println("letter:" + res.get(i).letter + ", sccroe:" + res.get(i).score);
+			if (res != null) {
+				for(int i = 0; i < res.size(); ++i) {
+					System.out.println("letter:" + res.get(i).letter + ", sccroe:" + res.get(i).score);
+				}
 			}
 			int len = (res!=null) ? res.size() : 0;
 			System.out.println(len + "個候補を見つけました (処理時間 " + progressTime + "ms)");
