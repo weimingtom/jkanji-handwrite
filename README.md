@@ -58,7 +58,7 @@ https://github.com/weimingtom/jkanji-android_4_2/blob/master/jkanji-android_v4.2
 (not use xml data, only from data embeded in Java code)     
 
 * handwriting-ja.xml and handwriting-ja_zinnia.xml  
-See https://sourceforge.net/projects/tomoe/files/tomoe/tomoe-0.6.0/
+See https://sourceforge.net/projects/tomoe/files/tomoe/tomoe-0.6.0/  
 This file is found in tomoe-0.6.0.tar.gz/tomoe-0.6.0/data/handwriting-ja.xml      
 and https://github.com/tegaki/tegaki/tree/master/tegaki-models/data/train/japanese  
 Used in XMLModelHandler, for Japanese kanji's strokes    
